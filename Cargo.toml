@@ -1,0 +1,15 @@
+[package]
+name = "cargo-consolidate"
+version = "0.0.1"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.83"
+cargo_toml = "0.20.2"
+clap = { version = "4.5.4", features = ["derive", "string"] }
+gix = "0.62.0"
+semver = "1.0.23"
+serde = "1.0.201"
+thiserror = "1.0.60"
+toml = "0.8.13"
+toml_edit = {version = "0.22.13", features = ["serde"]}
